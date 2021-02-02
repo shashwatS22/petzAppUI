@@ -27,7 +27,7 @@ class _ShopNowRoundedSliderState extends State<ShopNowRoundedSlider> {
               child: Text(
                 "General",
                 style: TextStyle(
-                    fontSize: 16,
+                    fontSize: 17,
                     color: Color(0xff000000),
                     fontWeight: FontWeight.w500),
               ),

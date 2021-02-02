@@ -23,8 +23,8 @@ class _ShopNowFeaturedListState extends State<ShopNowFeaturedList> {
           Align(
             alignment: Alignment.centerLeft,
             child: Text(
-              "Featured",
-              style: TextStyle(fontSize: 20, color: Color(0xff444444)),
+              "   Featured",
+              style: TextStyle(fontSize: 17, color: Colors.black),
             ),
           ),
           SizedBox(height: mq.height * 0.016),

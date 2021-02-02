@@ -26,7 +26,7 @@ class _ShopNowBrandsListState extends State<ShopNowBrandsList> {
               alignment: Alignment.centerLeft,
               child: Text(
                 "Brands",
-                style: TextStyle(fontSize: 17, color: Color(0xff444444)),
+                style: TextStyle(fontSize: 17, color: Colors.black),
               ),
             ),
           ),

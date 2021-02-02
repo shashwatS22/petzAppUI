@@ -52,10 +52,10 @@ class FoodCategoryItem extends StatelessWidget {
   Widget build(BuildContext context) {
     var mq = MediaQuery.of(context).size;
     return Padding(
-      padding: const EdgeInsets.only(right: 10, top: 10, bottom: 10),
+      padding: const EdgeInsets.only(right: 10, top: 5, bottom: 10),
       child: Container(
         // height: mq.height * 0.1,
-        width: mq.width * 0.32,
+        width: mq.width * 0.35,
         alignment: Alignment.bottomLeft,
         padding: EdgeInsets.all(10),
 

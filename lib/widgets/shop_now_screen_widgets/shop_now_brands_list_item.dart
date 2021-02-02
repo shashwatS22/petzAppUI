@@ -11,10 +11,10 @@ class ShopNowBrandsListItem extends StatelessWidget {
   Widget build(BuildContext context) {
     var mq = MediaQuery.of(context).size;
     return Padding(
-      padding: const EdgeInsets.only(right: 10.0, top: 10, bottom: 10),
+      padding: const EdgeInsets.only(right: 10.0, top: 5, bottom: 10),
       child: Container(
         // height: mq.height * 0.1,
-        width: mq.width * 0.32,
+        width: mq.width * 0.35,
         decoration: BoxDecoration(
           image: DecorationImage(
               image: AssetImage(brand.image), fit: BoxFit.cover),
